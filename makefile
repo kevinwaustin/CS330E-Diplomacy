@@ -16,8 +16,7 @@ FILES :=                                \
     RunDiplomacy5.out                   \
     RunDiplomacy.py                     \
     TestDiplomacy.out                   \
-    TestDiplomacy.py
-
+    TestDiplomacy.py			\
     cs330e-diplomacy-tests/kevinw.austin-RunDiplomacy1.in   \
     cs330e-diplomacy-tests/kevinw.austin-RunDiplomacy1.out  \
     cs330e-diplomacy-tests/kevinw.austin-RunDiplomacy2.in   \
