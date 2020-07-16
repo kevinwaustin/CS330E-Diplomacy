@@ -18,19 +18,18 @@ FILES :=                                \
     TestDiplomacy.out                   \
     TestDiplomacy.py
 
-#    cs330e-diplomacy-tests/kevinw.austin-RunDiplomacy1.in   \
-#    cs330e-diplomacy-tests/kevinw.austin-RunDiplomacy1.out  \
-#    cs330e-diplomacy-tests/kevinw.austin-RunDiplomacy2.in   \
-#    cs330e-diplomacy-tests/kevinw.austin-RunDiplomacy2.out  \
-#    cs330e-diplomacy-tests/kevinw.austin-RunDiplomacy3.in   \
-#    cs330e-diplomacy-tests/kevinw.austin-RunDiplomacy3.out  \
-#    cs330e-diplomacy-tests/kevinw.austin-RunDiplomacy4.in   \
-#    cs330e-diplomacy-tests/kevinw.austin-RunDiplomacy4.out  \
-#    cs330e-diplomacy-tests/kevinw.austin-RunDiplomacy5.in   \
-#    cs330e-diplomacy-tests/kevinw.austin-RunDiplomacy5.out  \
-#    cs330e-diplomacy-tests/kevinw.austin-TestDiplomacy.out  \
-#    cs330e-diplomacy-tests/kevinw.austin-TestDiplomacy.py   \
-#
+    cs330e-diplomacy-tests/kevinw.austin-RunDiplomacy1.in   \
+    cs330e-diplomacy-tests/kevinw.austin-RunDiplomacy1.out  \
+    cs330e-diplomacy-tests/kevinw.austin-RunDiplomacy2.in   \
+    cs330e-diplomacy-tests/kevinw.austin-RunDiplomacy2.out  \
+    cs330e-diplomacy-tests/kevinw.austin-RunDiplomacy3.in   \
+    cs330e-diplomacy-tests/kevinw.austin-RunDiplomacy3.out  \
+    cs330e-diplomacy-tests/kevinw.austin-RunDiplomacy4.in   \
+    cs330e-diplomacy-tests/kevinw.austin-RunDiplomacy4.out  \
+    cs330e-diplomacy-tests/kevinw.austin-RunDiplomacy5.in   \
+    cs330e-diplomacy-tests/kevinw.austin-RunDiplomacy5.out  \
+    cs330e-diplomacy-tests/kevinw.austin-TestDiplomacy.out  \
+    cs330e-diplomacy-tests/kevinw.austin-TestDiplomacy.py   \
 
 ifeq ($(shell uname), Darwin)          # Apple
     PYTHON   := python3
