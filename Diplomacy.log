@@ -1,3 +1,45 @@
+commit a6a2009221cf3bf84fc1f26dd53839f3e0b7e6d1
+Author: “Kevin <kevinw.austin@utexas.edu>
+Date:   Thu Jul 16 06:37:38 2020 -0500
+
+    fixed bug for rundiplomacy maketest
+
+commit 19bc73b99773e14351bf8316a48f467bbec7e60c
+Author: “Kevin <kevinw.austin@utexas.edu>
+Date:   Thu Jul 16 06:35:17 2020 -0500
+
+    modified makefile for rundiplomacy.in and out 1-5
+
+commit 63ddf361b4af8f59c7c97aa09a96fe01af706a68
+Author: “Kevin <kevinw.austin@utexas.edu>
+Date:   Thu Jul 16 06:28:16 2020 -0500
+
+    rundiplomacy.in and out 1-5
+
+commit 2253fabc4c92fa189b0545a9667c2c22341af363
+Author: “Kevin <kevinw.austin@utexas.edu>
+Date:   Thu Jul 16 06:09:13 2020 -0500
+
+    modified test cases for TestDiplomacy
+
+commit c3ace41f97551f45977dd7db28cac32acfed19fc
+Author: “Kevin <kevinw.austin@utexas.edu>
+Date:   Thu Jul 16 05:42:47 2020 -0500
+
+    adding temporary RunDiplomacy.out and TestDiplomacy.out for pipeline success
+
+commit ca482484c51d494d26f8d1fe1901846f7a27edc0
+Author: “Kevin <kevinw.austin@utexas.edu>
+Date:   Thu Jul 16 05:38:16 2020 -0500
+
+    adding temporary RunDiplomacy.in file for pipeline success
+
+commit 35d319e1b916f804199c6fcdf8de3525f489b916
+Author: “Kevin <kevinw.austin@utexas.edu>
+Date:   Thu Jul 16 05:35:01 2020 -0500
+
+    updated makefile using collatz template
+
 commit b1d28774d901a4ee45b3d4c1fa7726374f562061
 Author: “Kevin <kevinw.austin@utexas.edu>
 Date:   Thu Jul 16 05:25:45 2020 -0500
