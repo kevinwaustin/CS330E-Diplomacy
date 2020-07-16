@@ -19,21 +19,45 @@ class TestDiplomacy (TestCase):
     # -----
 
     def test_start(self):
-        a = diplomacy_start("A Madrid Hold")
-        b = Army("A", "Madrid")
-        self.assertEqual(b.name, a.name)
-        self.assertEqual(b.city, a.city)
+        a = diplomacy_start("A Frisco Hold")
+        self.assertEqual("A", a.name)
+        self.assertEqual("Frisco", a.city)
+    
+    def test_start2(self):
+        a = diplomacy_start("B Tulsa Move DC")
+        self.assertEqual("B", a.name)
+        self.assertEqual("DC", a.city)
+    
+    def test_start2(self):
+        a = diplomacy_start("Z Orlando Support G")
+        self.assertEqual("Z", a.name)
+        self.assertEqual("Orlando", a.city)
+        self.assertEqual("G", a.target)
 
     # -----
     # solve
     # -----
 
     def test_solve(self):
-        r = StringIO("A Madrid Hold\nB Barcelona Move Madrid\nC London Support B\n")
+        r = StringIO("A Dallas Hold\nB Austin Move Dallas\nC Houston Support B\n")
         w = StringIO()
         diplomacy_solve(r, w)
         self.assertEqual(
-            w.getvalue(), "A [dead]\nB Madrid\nC London\n")
+            w.getvalue(), "A [dead]\nB Dallas\nC Houston\n")
+    
+    def test_solve2(self):
+        r = StringIO("C Houston Support B\nB Austin Move Dallas\nA Dallas Hold\n")
+        w = StringIO()
+        diplomacy_solve(r, w)
+        self.assertEqual(
+            w.getvalue(), "A [dead]\nB Dallas\nC Houston\n")
+    
+    def test_solve2(self):
+        r = StringIO("A Madrid Hold\nB Barcelona Move Madrid\nC London Move Madrid\nD Paris Support B\nE Austin Support A\n")
+        w = StringIO()
+        diplomacy_solve(r, w)
+        self.assertEqual(
+            w.getvalue(), "A [dead]\nB [dead]\nC [dead]\nD Paris\nE Austin\n")
 
 # ----
 # main

@@ -53,14 +53,17 @@ def diplomacy_outcome(battlefield):
     for battle in battlefield:
         max_power = 0
         while len(battle) > 1:
-            for army in battle:
-                if army.power <= max_power:
-                    result = army.name + " [dead]"
+            i = len(battle) - 1
+            while i >= 0:
+                if battle[i].power <= max_power:
+                    result = battle[i].name + " [dead]"
                     outcome.append(result)
-                    battle.remove(army)
+                    battle.pop(i)
+                i -= 1
             max_power += 1
-        result = battle[0].name + " " + battle[0].city
-        outcome.append(result)
+        if len(battle) > 0:
+            result = battle[0].name + " " + battle[0].city
+            outcome.append(result)
     return outcome
     
 
