@@ -1,0 +1,41 @@
+commit b1d28774d901a4ee45b3d4c1fa7726374f562061
+Author: “Kevin <kevinw.austin@utexas.edu>
+Date:   Thu Jul 16 05:25:45 2020 -0500
+
+    fixed bug for multiple supports in a test case
+
+commit e57c3cd5fc6b4b8571b9d1ada647e552d39bbe3c
+Author: “Kevin <kevinw.austin@utexas.edu>
+Date:   Thu Jul 16 04:59:34 2020 -0500
+
+    first implementation of TestDiplomacy.py
+
+commit 24ba290cb6e7b6e778a8682d7a60d7493b1d5bd4
+Author: “Kevin <kevinw.austin@utexas.edu>
+Date:   Thu Jul 16 04:47:47 2020 -0500
+
+    fixed bugs in Diplomacy.py
+
+commit 0df2f570b3709e96fe76c0bd92b8cd40ffb5a921
+Author: “Kevin <kevinw.austin@utexas.edu>
+Date:   Thu Jul 16 04:26:00 2020 -0500
+
+    first implementation of RunDiplomacy.py
+
+commit cc8c74cd74e08067556bbc33a5200c4219704d8b
+Author: “Kevin <kevinw.austin@utexas.edu>
+Date:   Thu Jul 16 04:25:24 2020 -0500
+
+    Diplomacy.py first implementation
+
+commit 494a37f918cb134105442bb29629f31052b857d8
+Author: “Kevin <kevinw.austin@utexas.edu>
+Date:   Thu Jul 16 01:07:37 2020 -0500
+
+    gitignore, gitlab-ci.yml, requirements
+
+commit 810cc2ecae696d4aa295bd6e647823c0e25d2ef7
+Author: Kevin M Wang <kevinw.austin@utexas.edu>
+Date:   Sat Jul 11 19:18:36 2020 +0000
+
+    Initial commit

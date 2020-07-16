@@ -10,7 +10,7 @@ if __name__ == "__main__":
     diplomacy_solve(sys.stdin, sys.stdout)
 
 """ #pragma: no cover
-$ cat Rundiplomacy.in
+$ cat RunDiplomacy.in
 1 10
 100 200
 201 210
@@ -18,9 +18,9 @@ $ cat Rundiplomacy.in
 
 
 
-$ python Rundiplomacy.py < Rundiplomacy.in > Rundiplomacy.out
+$ python RunDiplomacy.py < RunDiplomacy.in > RunDiplomacy.out
 
-$ cat Rundiplomacy.out
+$ cat RunDiplomacy.out
 1 10 1
 100 200 1
 201 210 1
