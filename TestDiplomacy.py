@@ -28,7 +28,7 @@ class TestDiplomacy (TestCase):
         self.assertEqual("B", a.name)
         self.assertEqual("DC", a.city)
     
-    def test_start2(self):
+    def test_start3(self):
         a = diplomacy_start("Z Orlando Support G")
         self.assertEqual("Z", a.name)
         self.assertEqual("Orlando", a.city)
@@ -52,12 +52,19 @@ class TestDiplomacy (TestCase):
         self.assertEqual(
             w.getvalue(), "A [dead]\nB Dallas\nC Houston\n")
     
-    def test_solve2(self):
+    def test_solve3(self):
         r = StringIO("A Madrid Hold\nB Barcelona Move Madrid\nC London Move Madrid\nD Paris Support B\nE Austin Support A\n")
         w = StringIO()
         diplomacy_solve(r, w)
         self.assertEqual(
             w.getvalue(), "A [dead]\nB [dead]\nC [dead]\nD Paris\nE Austin\n")
+    
+    def test_solve4(self):
+        r = StringIO("A Dallas Move Austin\nB Austin Support A\n")
+        w = StringIO()
+        diplomacy_solve(r, w)
+        self.assertEqual(
+            w.getvalue(), "A [dead]\nB [dead]\n")
 
 # ----
 # main
