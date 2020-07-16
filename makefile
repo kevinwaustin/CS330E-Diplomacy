@@ -65,24 +65,24 @@ Diplomacy.html: Diplomacy.py
 Diplomacy.log:
 	git log > Diplomacy.log
 
-RunDiplomacy1.tmp: RunDiplomacy1.in RunDiplomacy1.out RunDiplomacy1.py
-	$(PYTHON) RunDiplomacy1.py < RunDiplomacy1.in > RunDiplomacy1.tmp
+RunDiplomacy1.tmp: RunDiplomacy1.in RunDiplomacy1.out RunDiplomacy.py
+	$(PYTHON) RunDiplomacy.py < RunDiplomacy1.in > RunDiplomacy1.tmp
 	diff --strip-trailing-cr RunDiplomacy1.tmp RunDiplomacy1.out
 
-RunDiplomacy2.tmp: RunDiplomacy2.in RunDiplomacy2.out RunDiplomacy2.py
-	$(PYTHON) RunDiplomacy2.py < RunDiplomacy2.in > RunDiplomacy2.tmp
+RunDiplomacy2.tmp: RunDiplomacy2.in RunDiplomacy2.out RunDiplomacy.py
+	$(PYTHON) RunDiplomacy.py < RunDiplomacy2.in > RunDiplomacy2.tmp
 	diff --strip-trailing-cr RunDiplomacy2.tmp RunDiplomacy2.out
 
-RunDiplomacy3.tmp: RunDiplomacy3.in RunDiplomacy3.out RunDiplomacy3.py
-	$(PYTHON) RunDiplomacy3.py < RunDiplomacy3.in > RunDiplomacy3.tmp
+RunDiplomacy3.tmp: RunDiplomacy3.in RunDiplomacy3.out RunDiplomacy.py
+	$(PYTHON) RunDiplomacy.py < RunDiplomacy3.in > RunDiplomacy3.tmp
 	diff --strip-trailing-cr RunDiplomacy3.tmp RunDiplomacy3.out
 
-RunDiplomacy4.tmp: RunDiplomacy4.in RunDiplomacy4.out RunDiplomacy4.py
-	$(PYTHON) RunDiplomacy4.py < RunDiplomacy4.in > RunDiplomacy4.tmp
+RunDiplomacy4.tmp: RunDiplomacy4.in RunDiplomacy4.out RunDiplomacy.py
+	$(PYTHON) RunDiplomacy.py < RunDiplomacy4.in > RunDiplomacy4.tmp
 	diff --strip-trailing-cr RunDiplomacy4.tmp RunDiplomacy4.out
 
-RunDiplomacy5.tmp: RunDiplomacy5.in RunDiplomacy5.out RunDiplomacy5.py
-	$(PYTHON) RunDiplomacy5.py < RunDiplomacy5.in > RunDiplomacy5.tmp
+RunDiplomacy5.tmp: RunDiplomacy5.in RunDiplomacy5.out RunDiplomacy.py
+	$(PYTHON) RunDiplomacy.py < RunDiplomacy5.in > RunDiplomacy5.tmp
 	diff --strip-trailing-cr RunDiplomacy5.tmp RunDiplomacy5.out
 
 TestDiplomacy.tmp: TestDiplomacy.py
