@@ -1,3 +1,21 @@
+commit 39f039c0bd706118c26290ce638ec7481cf8313f
+Author: “Kevin <kevinw.austin@utexas.edu>
+Date:   Thu Jul 16 14:06:55 2020 -0500
+
+    fixed makefile bug
+
+commit 171cc751e4731f3c165af5668e32798d7f92cda4
+Author: “Kevin <kevinw.austin@utexas.edu>
+Date:   Thu Jul 16 06:55:01 2020 -0500
+
+    revising makefile for use with public repo
+
+commit b7dd7af4691e6cb065f080980806690ca621a44d
+Author: Kevin Wang <kmw4287@cs.utexas.edu>
+Date:   Thu Jul 16 06:48:37 2020 -0500
+
+    final commit before pushing to public repo
+
 commit a6a2009221cf3bf84fc1f26dd53839f3e0b7e6d1
 Author: “Kevin <kevinw.austin@utexas.edu>
 Date:   Thu Jul 16 06:37:38 2020 -0500
